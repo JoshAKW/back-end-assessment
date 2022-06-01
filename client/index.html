@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body class="container">
+ 
+
+
+
+    <main>
+      <div>
+      <button id="complimentButton">Get a compliment</button>
+      <button id="fortuneButton">Get a fortune</button>
+    </div>
+    <button id="all">Display Goals and Plans</button>
+
+
+
+    <h2>Create a Primary Goal</h2>
+    <form id="create-goal">
+        <input type="text" id="primary" placeholder="Primary Goal"/>
+        <label for="primary-plans">Please share your Plan for the Primary Goal </label>
+        <textarea id="primary-plans"  placeholder ="Please share your plan here"></textarea>
+        <button>Create Primary Goal and Plan</button>
+    </form>
+
+
+ 
+
+    <h3>Delete latest goal and plan.</h3>
+    <form id="delete-btn">
+        <button>Delete goal</button>
+    </form>
+    </main>
+
+    <section></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
